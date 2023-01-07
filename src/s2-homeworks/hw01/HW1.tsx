@@ -39,7 +39,7 @@ export const message0: MessageType = {
         name: 'Georgy',  // можно менять
     },
     message: {
-        text: 'первое сообщение', // можно менять
+        text: 'СаламСаламСаламСаламСаламСаламСаламСаламСаламСалам', // можно менять
         time: '12:00', // можно менять
     },
 }
@@ -50,7 +50,7 @@ export const friendMessage0: MessageType = {
         name: 'Ana', // можно менять
     },
     message: {
-        text: 'второе сообщение', // можно менять
+        text: 'Малейкум АссаламМалейкум АссаламМалейкум АссаламМалейкум Ассалам', // можно менять
         time: '11:34', // можно менять
     },
 }
@@ -60,6 +60,7 @@ const HW1 = () => {
     return (
         <div id={'hw1'}>
             <div className={s2.hwTitle}>Homework #1</div>
+            <hr/>
             <div className={s2.hw}>
                 {/*проверка отображения (не менять)*/}
                 <div>
